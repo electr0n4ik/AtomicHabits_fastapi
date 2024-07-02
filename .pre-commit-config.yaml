@@ -1,4 +1,4 @@
-exclude: '^tests/'
+exclude: "^tests/"
 default_stages: [commit]
 
 default_language_version:
@@ -19,7 +19,7 @@ repos:
     rev: v4.0.0-alpha.8
     hooks:
       - id: prettier
-        args: ['--tab-width', '2', '--single-quote']
+        args: ["--tab-width", "2"]
 
   - repo: https://github.com/astral-sh/ruff-pre-commit
     rev: v0.4.3
